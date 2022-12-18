@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
 
-body {
+.navbar-transparente  {
+    background-color: rgba(0, 0, 0, 0.750);
+    padding: 20px 0px;
+}
+
+/* body {
     background:url(../img/capa.png), 
     url(../img/ruido.png),
     linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
 }
 
-.navbar-transparente  {
-    background-color: rgba(0, 0, 0, 0.750);
-    padding: 20px 0px;
-}
+ */
 
-.navbar-light .navbar-nav .nav-link{
-    color: #ff4169;
-}
+
 
 
 
