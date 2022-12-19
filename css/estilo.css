@@ -1,19 +1,122 @@
 @charset "UTF-8";
 
 
-.navbar-transparente  {
-    background-color: rgba(0, 0, 0, 0.750);
-    padding: 20px 0px;
-}
 
-/* body {
+
+body {
     background:url(../img/capa.png), 
     url(../img/ruido.png),
     linear-gradient(50deg,#ff4169,#7c26f8);
     background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
- */
+h1 {
+    font-weight: bold;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+}
+
+
+
+html,body, #home {
+    height: 100vh;
+   
+}
+
+
+
+.capa {
+    text-align: center;
+}
+
+.radius {
+    border-radius: 15px;
+    padding: 8px;
+}
+    a {
+
+        color: #fafafa;
+        text-decoration: none;
+        background-color: transparent;
+        font-size: 0.8em;
+        
+    }
+
+    a:hover {
+        color: #9bf0e1;
+        font-weight: 600px;
+
+    }
+
+    .btn-radius{
+        text-transform: uppercase;
+        color: #fff;
+        transition: background 0.4 , color 0.4s;
+        padding:10px 20px;
+        border-radius: 500px;
+
+    }
+
+    .btn-roxo {
+        background-color: #7c25f8;
+        font-weight: bold;
+    }
+
+    .btn-branco {
+        background-color: #fff;
+        font-weight: bold;
+        color: #000;
+        border: 2px solid white;
+
+    }
+
+    
+    /* Media Queries */
+
+  /* Dispositivos extra small (telefones em modo retrato, com menos de 576px) */
+    @media (max-width: 575.98px) { 
+        h1{
+            font-size: 4em;
+            text-align: center;
+        }
+    }
+    
+    /* Dispositivos small (telefones em modo paisagem, com 576px ou mais) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        h1{
+            font-size: 5em;
+            text-align: center;
+        }
+     }
+    
+     /* Dispositivos médios (tablets com 768px ou mais) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        h1{
+            font-size: 5em;
+            text-align: center;
+        }
+     }
+    
+     /* Dispositivos large (desktops com 992px ou mais) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        h1{
+            font-size: 6em;
+            text-align: center;
+        }
+     }
+    
+     /* Dispositivos extra large (desktops grandes com 1200px ou mais) */
+    @media (min-width: 1200px) { 
+        h1{
+            font-size: 7em;
+            text-align: center;
+        }
+     }
+    
+
+
 
 
 
